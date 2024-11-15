@@ -17,5 +17,6 @@ router.post("/addLandlordLeaseProperty", userController.addLandlordLeaseProperty
 router.get("/getAllActiveProperties", userController.getAllActiveProperties);
 router.post("/getLandlordLeaseTerms", userController.getLandlordLeaseDetails)
 router.post("/addTenantLeaseAgreement", userController.addTenantLeaseAgreement)
-// router.post("/getLandlordDetailsInTenantDashboard",userController.getLandlordDetailsInTenantDashboard)
+router.post("/getLandlordDetailsInTenantDashboard",userController.getLandlordDetailsInTenantDashboard)
+router.post("/updateTenantDetailsInLandlordDashboard",userController.updateTenantDetailsInLandlordDashboard)
 module.exports = router;
